@@ -1,9 +1,5 @@
-# Credit Risk Classification Challenge
-
-
 # Table of Contents
 
-- [Credit Risk Classification Challenge](#credit-risk-classification-challenge)
 - [Table of Contents](#table-of-contents)
 - [Challenge Overview](#challenge-overview)
 - [Prerequisites](#prerequisites)
@@ -95,9 +91,9 @@ The Results:
 - Accuracy: the model accurately classified 99% of all loans.
 
 - Precision:
-    -  Healthy Loans (0): the score is 1: 00 illustrating a perfect model to identify healthy loans with less chance of incorrectly labeling the loan status as high-risk. 
+    -  Healthy Loans (0): the score is 1:00, illustrating a perfect model to identify healthy loans with less chance of incorrectly labeling the loan status as high-risk. 
 
-    - High-risk Loans (1): the score is 0.87 illustrating that the model predicted 87% of the loans as high-risk correctly with a few false positives. 
+    - High-risk Loans (1): the score is 0.87, illustrating that the model predicted 87% of the loans as high-risk correctly with a few false positives. 
 
 - Recall: 
     - Healthy Loans (0): the score is 1.00, signifying that the model correctly identified 100% of all healthy loans. 
@@ -107,7 +103,11 @@ The Results:
 
 Summary:
 
-The logistic regression model performed well in predicting the loan status, especially for healthy loans with perfect precision and recall With a high f1-score for both classes it illustrated the overall prediction to be well-balanced The confusion matrix highlighted that the model misclassified 32 actual high-risk loans as healthy loans and 86 healthy loans as high-risk Although the number of misclassifications for both classes is low, there is room for improvement.The better-performing model is the logistic regression which gives a 99% accuracy with no misclassified loan status. Since the company wants to identify high-risk loans, reducing false positives for high-risk loans would help improve the overall performance of the model. 
+The logistic regression model did a great job at predicting loan status, especially for healthy loans, where it was perfect in identifying them with no mistakes. It also had high F1-scores for both healthy and high-risk loans, showing that the model's overall predictions were balanced.
+
+From the confusion matrix, we can see that the model incorrectly predicted 32 high-risk loans as healthy and 86 healthy loans as high-risk. Although these misclassifications are small, there's still room for improvement.
+
+The model's overall accuracy was 99%, which is excellent, but since the company is focused on finding high-risk loans, improving the model's ability to reduce false positives (wrongly labeling healthy loans as high-risk) would make it even better.
 
 
 # Split and Train Data Code Example
