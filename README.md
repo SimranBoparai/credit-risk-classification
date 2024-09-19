@@ -1,27 +1,21 @@
-# credit-risk-classification
-Week 20 Assignment
+# Credit Risk Classification Challenge
 
 
 # Table of Contents
 
-1. [Challenge Overview](#challenge-overview)
-
-2. [Prerequisties](#prerequisites)
--   [Installation](#installation)
--   [Repository Setup](#repository-setup)
--   [Git Bash Command Example](#git-bash-command-example)
-
-3. [Repository Structure](#repository-structure)
-
-4. [Challenge Instructions](#challenge-instructions)
-
-5. [Credit Risk Analysis](#credit-risk-analysis)
-
-6. [Split and Train Data Code Example](#split-and-train-data-code-example)
-
-7. [Acknowledgements](#acknowledgements)
-
-8. [Author](#author)
+- [Credit Risk Classification Challenge](#credit-risk-classification-challenge)
+- [Table of Contents](#table-of-contents)
+- [Challenge Overview](#challenge-overview)
+- [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Repository Setup:](#repository-setup)
+  - [Git Bash Command Example](#git-bash-command-example)
+- [Repository Structure](#repository-structure)
+- [Challenge Instructions](#challenge-instructions)
+- [Credit Risk Analysis](#credit-risk-analysis)
+- [Split and Train Data Code Example](#split-and-train-data-code-example)
+- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
 
 # Challenge Overview
@@ -70,7 +64,7 @@ git push
 
 
 # Repository Structure
-- Credit-Risk-Classification
+- credit-risk-classification
     - Credit_Risk
         - Resources 
             - lending_data.csv
@@ -101,21 +95,19 @@ The Results:
 - Accuracy: the model accurately classified 99% of all loans.
 
 - Precision:
+    -  Healthy Loans (0): the score is 1: 00 illustrating a perfect model to identify healthy loans with less chance of incorrectly labeling the loan status as high-risk. 
 
-    - Healthy Loans (0): the score is 1: 00 illustrating a perfect model to identify healthy loans with less chance of incorrectly labeling the loan status as high-risk. 
-
-    - High-risk Loans (1): the score is 0.87 illustrating that the model predicted 87% of the loans as high-risk correctly with a few false positives. 
+    - High-risk Loans (1): the score is 0.87 illustrating that the model predicted 87% of the loans as high-risk correctly with a few false positives. 
 
 - Recall: 
-
-    - Healthy Loans (0): the score is 1.00, signifying that the model correctly identified 100% of all healthy loans. 
-
-    - High-risk Loans (1): the score is 0.95, signifying the model successfully identified 95% of the high-risk loans.
+    - Healthy Loans (0): the score is 1.00, signifying that the model correctly identified 100% of all healthy loans. 
+  
+    - High-risk Loans (1): the score is 0.95, signifying the model successfully identified 95% of the high-risk loans.
 
 
 Summary:
 
-The logistic regression model performed well in predicting the loan status, especially for healthy loans with perfect precision and recall. With a high f1-score for both classes, it illustrated the overall prediction to be well-balanced. The confusion matrix highlighted that the model misclassified 32 actual high-risk loans as healthy loans and 86 healthy loans as high-risk. Although the number of misclassifications for both classes is low, there is room for improvement. The better-performing model is the logistic regression which gives a 99% accuracy with no misclassified loan status. Since, the company wants to identify high-risk loans, reducing false positives for high-risk loans would help improve the overall performance of the model. 
+The logistic regression model performed well in predicting the loan status, especially for healthy loans with perfect precision and recall With a high f1-score for both classes it illustrated the overall prediction to be well-balanced The confusion matrix highlighted that the model misclassified 32 actual high-risk loans as healthy loans and 86 healthy loans as high-risk Although the number of misclassifications for both classes is low, there is room for improvement.The better-performing model is the logistic regression which gives a 99% accuracy with no misclassified loan status. Since the company wants to identify high-risk loans, reducing false positives for high-risk loans would help improve the overall performance of the model. 
 
 
 # Split and Train Data Code Example
