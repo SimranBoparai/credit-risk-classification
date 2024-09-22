@@ -8,7 +8,7 @@
 - [Prerequisites](#prerequisites)
   - [Required Tools](#required-tools)
   - [Windows Installation Process](#windows-installation-process)
-  - [Repository Setup:](#repository-setup)
+  - [Repository Setup](#repository-setup)
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
 - [Credit Risk Analysis](#credit-risk-analysis)
@@ -38,7 +38,7 @@ For the Credit Risk Classification Challenge, ensure you complete the follow
       pip install scikit-learn
    ```
 
-## Repository Setup:
+## Repository Setup
   - Create a new repository called ```credit-risk-classification``` in GitHub with a README file
   - Clone the repository to your local machine: ```git clone https://github.com/your_username/credit-risk-classification.git```
   - Navigate into the repository folder and create a new folder titled ```Credit_Risk```
@@ -53,7 +53,8 @@ git push origin main
 ```
 
 # Repository Structure
-```- credit-risk-classification
+```
+- credit-risk-classification
     - Credit_Risk
         - Resources 
             - lending_data.csv
