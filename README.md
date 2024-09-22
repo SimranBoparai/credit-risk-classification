@@ -1,11 +1,14 @@
+# Credit Risk Classification 
+
 # Table of Contents
 
+- [Credit Risk Classification](#credit-risk-classification)
 - [Table of Contents](#table-of-contents)
 - [Challenge Overview](#challenge-overview)
 - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+  - [Required Tools](#required-tools)
+  - [Windows Installation Process](#windows-installation-process)
   - [Repository Setup:](#repository-setup)
-  - [Git Bash Command Example](#git-bash-command-example)
 - [Repository Structure](#repository-structure)
 - [Challenge Instructions](#challenge-instructions)
 - [Credit Risk Analysis](#credit-risk-analysis)
@@ -24,49 +27,40 @@ We used logistic regression as the machine learning model to classify the loans 
 # Prerequisites
 For the Credit Risk Classification Challenge, ensure you complete the following requirements:
 
-## Installation 
-- Install Visual Studio Code, and Python on your machine (can use Jupyter Notebook)
+## Required Tools  
+- Install Visual Studio Code, and Python on your machine (or Jupyter Notebook)
 - Install the Pandas, Scikit-learn, and Numpy libraries
-  - Windows installation process:
+
+## Windows Installation Process 
   ``` 
       pip install pandas
       pip install numpy 
       pip install scikit-learn
    ```
-- Create a new repository called 'Credit-Risk-Classification' in GitHub with README and .gitignore file.
 
 ## Repository Setup:
-  - Create a new repository called 'credit-risk-classification' in GitHub with a README file
-  - Copy the SSH key in GitHub
-  - Clone SSH key in directory
-  - Navigate into the challenge directory 
-  - Create a folder title 'Credit_Risk'
-  - Navigate into the 'Credit_Risk' folder
-   - Add the StarterCode file and Resources folder in the 'Credit_Risk' folder 
-  - Git add, commit, and push changes into the repository
-
-
-## Git Bash Command Example
-Navigate into a working directory. 
+  - Create a new repository called ```credit-risk-classification``` in GitHub with a README file
+  - Clone the repository to your local machine: ```git clone https://github.com/your_username/credit-risk-classification.git```
+  - Navigate into the repository folder and create a new folder titled ```Credit_Risk```
+     - ```mkdir Credit_Risk```
+     - ```cd Credit_Risk```
+   - Add the starter file ```credit_risk_classification.ipynb``` and Resources folder ```Credit_Risk``` in the folder 
+  - Push changes to your GitHub repository
 ```
-git clone (add you ssh key)
-cd 'Credit-risk-classification'
-mdkir Credit_Risk
-cd Credit_Risk
 git add .
-git commit -m "Pushing challenge work"
-git push 
+git commit -m "Pushing updated notebook"
+git push origin main 
 ```
-
 
 # Repository Structure
-- credit-risk-classification
+```- credit-risk-classification
     - Credit_Risk
         - Resources 
             - lending_data.csv
         - credit_risk_classification.ipynb
-    - gitignore
+    - .gitignore
     - README.md
+```
 
 
 # Challenge Instructions 
